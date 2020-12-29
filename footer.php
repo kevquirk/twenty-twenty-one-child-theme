@@ -48,6 +48,8 @@
 			</div><!-- .powered-by -->
 
 		</div><!-- .site-info -->
+		<!-- Plausible analytics -->
+    <script async defer data-domain="kevq.uk" src="https://stats.kevq.uk/js/index.js"></script>
 	</footer><!-- #colophon -->
 
 </div><!-- #page -->
