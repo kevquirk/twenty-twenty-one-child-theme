@@ -50,6 +50,10 @@
 		</div><!-- .site-info -->
 		<!-- Plausible analytics -->
     <script async defer data-domain="kevq.uk" src="https://stats.kevq.uk/js/index.js"></script>
+
+		<!-- Prism syntax highlighting -->
+		<link href="/wp-content/themes/twentytwentyone-child/prism.css" rel="stylesheet" />
+		<script async defer src="/wp-content/themes/twentytwentyone-child/prism.js"></script>
 	</footer><!-- #colophon -->
 
 </div><!-- #page -->
