@@ -21,9 +21,9 @@
 	<div class="entry-content">
 		<?php
 		the_content();
-		
+
 		?>
-	
+
 	<div class="subscribe-form">
 	  <h3>📰 Cool people get newsletters!</h3>
 
@@ -39,7 +39,13 @@
 		<input type="submit" name="submit" value="Subscribe!" id="submit"/>
 	  </form>
 	</div>
-	
+
+	<h2>💬 Looking for comments?</h2>
+
+	<p>I don't have comments on this site as they're difficult to manage and take up too much time. I'd rather concentrate on producing content than managing comments.</p>
+
+	<p>Instead of leaving a comment, you could 📝 <a href="/guestbook">sign my guestbook</a> or ✉️ <a href="/contact">contact me</a> instead.
+
 	<?php
 
 		wp_link_pages(
