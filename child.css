@@ -18,12 +18,15 @@ Text Domain: twentytwentyone-child
 
 .site-branding a {
 	text-decoration: none;
-  text-transform: capitalize !important;
 }
 
 .site-branding a:hover {
   text-decoration: underline;
   text-decoration-style: dotted;
+}
+
+.site-title {
+  text-transform: capitalize !important;
 }
 
 /* Format notice boxes */
