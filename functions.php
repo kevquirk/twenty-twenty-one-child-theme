@@ -15,4 +15,3 @@ function tutsplus_external_styles() {
     wp_enqueue_style( 'child-css' );
 
 }
-?>
