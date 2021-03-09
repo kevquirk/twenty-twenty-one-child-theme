@@ -42,7 +42,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 /* Format notice boxes */
 .notice, .notice-blue {
-	background: rgba(0, 0, 0, 0.1);
+	background: rgba(0, 0, 0, .075);
 	border: 3px solid var(--separator--border-color);
 	padding: 1rem;
 }
@@ -54,11 +54,18 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 	padding: 1rem;
 }
 
+@media (prefers-color-scheme: dark) {
+	.notice, .notice-blue,
+	.subscribe-form {
+		background: rgba(0, 0, 0, .02);
+	}
+}
+
 /* Format the newsletter/subscribe form */
 .subscribe-form {
 	border: 3px solid var(--separator--border-color);
 	padding: 1rem;
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, .075);
 }
 
 .subscribe-form h2 {
