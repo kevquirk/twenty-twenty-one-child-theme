@@ -40,12 +40,6 @@
 	  </form>
 	</div>
 
-	<h2>💬 Looking for comments?</h2>
-
-	<p>I don't have comments on this site as they're difficult to manage and take up too much time. I'd rather concentrate on producing content than managing comments.</p>
-
-	<p>Instead of leaving a comment, why not think about 📝 <a href="/guestbook">signing my guestbook</a> or ✉️ <a href="/contact">contacting me</a>.
-
 	<?php
 
 		wp_link_pages(
@@ -57,6 +51,11 @@
 			)
 		);
 		?>
+		<h2>💬 Looking for comments?</h2>
+
+		<p>I don't have comments on this site as they're difficult to manage and take up too much time. I'd rather concentrate on producing content than managing comments.</p>
+
+		<p>Instead of leaving a comment, why not think about 📝 <a href="/guestbook">signing my guestbook</a> or ✉️ <a href="/contact">contacting me</a>.
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer default-max-width">
