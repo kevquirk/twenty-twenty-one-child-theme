@@ -45,9 +45,10 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
   text-transform: capitalize !important;
 }
 
-.kb-club p {
+.kb-club a {
 	border: 2px solid var(--separator--border-color);
 	padding: .5rem 1rem;
+	text-decoration: none;
 }
 
 /* Format notice boxes */
