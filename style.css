@@ -149,3 +149,40 @@ input[type="email"], input[type="url"] {
 .wp-block-table table {
     border: 2px solid;
 }
+
+/* Make mobile navigation come in at 1100px; */
+@media only screen and (max-width: 1100px) {
+
+	.primary-navigation > .primary-menu-container {
+		height: 100vh;
+		z-index: 499;
+		overflow-x: hidden;
+		overflow-y: auto;
+		border: 2px solid transparent;
+	}
+
+	.has-logo.has-title-and-tagline .primary-navigation > .primary-menu-container {
+		position: fixed;
+		transform: translateY(0) translateX(100%);
+	}
+
+	.admin-bar .has-logo.has-title-and-tagline .primary-navigation > .primary-menu-container {
+		top: var(--global--admin-bar--height);
+	}
+
+	.admin-bar .primary-navigation > .primary-menu-container {
+		height: calc(100vh - var(--global--admin-bar--height));
+	}
+
+	.primary-navigation > .primary-menu-container:focus {
+		border: 2px solid var(--global--color-primary);
+	}
+}
+@media only screen and (max-width: 481px) {
+
+	.primary-navigation-open .primary-navigation {
+		width: 100%;
+		position: fixed;
+		z-index: 2;
+	}
+}
