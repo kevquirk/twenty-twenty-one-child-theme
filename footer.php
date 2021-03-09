@@ -53,7 +53,8 @@
 			<p><a taget="blank" href="https://512kb.club"><span class="kb-club-no-bg">512KB Club</span><span class="kb-club-bg">Blue Team</span></a></p>
 		</div>
 		<!-- Plausible analytics -->
-    <script async defer data-domain="kevq.uk" src="https://stats.kevq.uk/js/index.js"></script>
+		<script async defer data-domain="kevq.uk" src="https://stats.kevq.uk/js/index.js"></script>
+		<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
 
 		<!-- Prism syntax highlighting -->
 		<link href="/wp-content/themes/twentytwentyone-child/prism.css" rel="stylesheet" />
