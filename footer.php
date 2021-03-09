@@ -47,11 +47,11 @@
 				<p>All work licensed under <b>CC BY-SA 4.0</b> unless otherwise stated.</p>
 			</div><!-- .powered-by -->
 
-			<div class="kb-club">
-				<p><a href="https://512kb.club"><span class="kb-club-no-bg">512KB Club</span><span class="kb-club-bg">Blue Team</span></a></p>
-			</div>
-
 		</div><!-- .site-info -->
+
+		<div class="kb-club">
+			<p><a href="https://512kb.club"><span class="kb-club-no-bg">512KB Club</span><span class="kb-club-bg">Blue Team</span></a></p>
+		</div>
 		<!-- Plausible analytics -->
     <script async defer data-domain="kevq.uk" src="https://stats.kevq.uk/js/index.js"></script>
 
