@@ -57,7 +57,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 .kb-club-bg {
 	background: var(--separator--border-color);
 	border: 2px solid var(--separator--border-color);
-	color: white;
+	color: var(--global--color-background);;
 	padding: .5rem 1rem;
 }
 
