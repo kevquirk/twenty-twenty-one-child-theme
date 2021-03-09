@@ -21,6 +21,11 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
   line-height: 1.5;
 }
 
+.favourites a {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
 .site-branding a {
 	text-decoration: none;
 	padding: var(--primary-nav--padding) var(--primary-nav--padding);
