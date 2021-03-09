@@ -55,7 +55,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
   background: rgba(0, 0, 0, 0.1);
 }
 
-.subscribe-form h2 {
+.subscribe-form h3 {
   margin-bottom: 2rem;
 	margin-top: 0 !important;
 }

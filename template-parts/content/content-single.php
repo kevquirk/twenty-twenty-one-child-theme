@@ -25,7 +25,7 @@
 		?>
 
 	<div class="subscribe-form">
-	  <h2>📰 Cool people get newsletters!</h2>
+	  <h3>📰 Cool people get newsletters!</h3>
 
 		<p>Have a poorly written technology, privacy and web-centric newsletter delivered straight to your inbox every month! <a href="https://metaletter.net">More info</a></p>
 
