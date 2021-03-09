@@ -23,11 +23,17 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 .site-branding a {
 	text-decoration: none;
+	padding: var(--primary-nav--padding) var(--primary-nav--padding);
 }
 
 .site-branding a:hover {
   text-decoration: underline;
   text-decoration-style: dotted;
+}
+
+.site-branding a:focus {
+	background: rgba(0, 0, 0, 0.9);
+	color: var(--wp--style--color--link, var(--global--color-white));
 }
 
 .site-title {
