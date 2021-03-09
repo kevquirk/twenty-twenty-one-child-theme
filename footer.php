@@ -44,7 +44,7 @@
 				<p><a href="/disclaimer">Disclaimer</a> | <a href="/license-information">License Info</a> | <a href="/privacy">Privacy</a> | <a href="/buy-me-a-coffee">Coffee</a> | <a href="/rss-feeds">RSS</a></p>
 
 				<div class="kb-club">
-					<a href="https://512kb.club"><span class="kb-club-no-bg">512KB Club</span><span class="kb-club-bg">Blue Team</span></a>
+					<p><a href="https://512kb.club"><span class="kb-club-no-bg">512KB Club</span><span class="kb-club-bg">Blue Team</span></a></p>
 				</div>
 			</div><!-- .site-name -->
 			<div class="powered-by">
