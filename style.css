@@ -85,7 +85,7 @@ input[type="email"], input[type="url"] {
 /* Format the comment notice box on posts */
 .comment-notice {
 	max-width: 610px;
-	margin: 0 auto;
+	margin: inherit auto;
 	display: block;
 }
 
