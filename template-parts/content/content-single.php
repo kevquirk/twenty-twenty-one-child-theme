@@ -27,9 +27,9 @@
 	<div class="subscribe-form">
 	  <h3>📰 Cool people get newsletters!</h3>
 
-	  <p>Do you want all your friends to look up to you and think “I wanna be like them!” If so, you need my newsletter! To find out more <a href="/newsletter">click here</a>.</p>
+		<p>Have a poorly written technology, privacy and web-centric newsletter delivered straight to your inbox every month! <a href="https://metaletter.net">More info</a></p>
 
-	  <p><small><b>Warning:</b> Reading my newsletter <b>will not</b> make you any cooler and is likely to significantly reduce your intelligence. May contain nuts 🥜.</small></p>
+		<p><b>⚠️ Warning:</b> Reading my newsletter is likely to significantly reduce your intelligence. May contain nuts. 🥜</p>
 
 	  <form action="https://newsletter.kevq.uk/subscribe" method="POST" accept-charset="utf-8">
 		<label for="email" class="visuallyhidden">Email</label>
@@ -44,7 +44,7 @@
 
 	<p>I don't have comments on this site as they're difficult to manage and take up too much time. I'd rather concentrate on producing content than managing comments.</p>
 
-	<p>Instead of leaving a comment, you could <a href="/guestbook">📝 sign my guestbook</a> or <a href="/contact">✉️ contact me</a> instead.
+	<p>Instead of leaving a comment, you can 📝 <a href="/guestbook">sign my guestbook</a> or ✉️ <a href="/contact">contact me</a>.
 
 	<?php
 
