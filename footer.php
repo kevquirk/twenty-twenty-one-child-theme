@@ -41,7 +41,7 @@
 		<?php endif; ?>
 		<div class="site-info">
 			<div class="site-name">
-				<a href="/disclaimer">Disclaimer</a> | <a href="/license-information">License Info</a> | <a href="/privacy">Privacy</a> | <a href="/buy-me-a-coffee">Coffee</a>
+				<a href="/disclaimer">Disclaimer</a> | <a href="/license-information">License Info</a> | <a href="/privacy">Privacy</a> | <a href="/buy-me-a-coffee">Coffee</a> | <a href="/rss-feeds">RSS</a>
 			</div><!-- .site-name -->
 			<div class="powered-by">
 				<p>All work licensed under <b>CC BY-SA 4.0</b> unless otherwise stated.</p>
