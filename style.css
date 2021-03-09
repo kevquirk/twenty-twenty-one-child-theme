@@ -82,6 +82,13 @@ input[type="email"], input[type="url"] {
   border: 3px solid var(--separator--border-color);
 }
 
+/* Format the comment notice box on posts */
+.comment-notice {
+	max-width: 610px;
+	margin: 0 auto;
+	display: block;
+}
+
 /* Add margin to content headers */
 .entry-content h2,
 .entry-content h3 {
