@@ -88,6 +88,19 @@ input[type="email"], input[type="url"] {
   border: 3px solid var(--separator--border-color);
 }
 
+/* Format generic banners and 100 days banner */
+.banner,
+.hundred-days {
+	background: rgba(0, 0, 0, .075);
+	border: 3px solid var(--separator--border-color);
+	padding: 1rem;
+}
+
+.hundred-days-number {
+  font-size: 1.4rem;
+  color: red;
+}
+
 /* Format the comment notice box on posts */
 .comment-notice {
 	max-width: 610px;
