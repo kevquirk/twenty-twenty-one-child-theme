@@ -94,6 +94,7 @@ input[type="email"], input[type="url"] {
 	background: rgba(0, 0, 0, .075);
 	border: 3px solid var(--separator--border-color);
 	padding: 1rem;
+	font-weight: bold;
 }
 
 .hundred-days-number {
