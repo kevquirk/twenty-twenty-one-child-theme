@@ -48,9 +48,9 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 }
 
 .notice-red {
-	background: #ffcdd2;
-	color: black;
-	border: 3px solid;
+	background: crimson;
+	color: white;
+	border: 3px solid var(--separator--border-color);
 	padding: 1rem;
 }
 
