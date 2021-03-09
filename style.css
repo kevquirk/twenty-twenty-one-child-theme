@@ -50,13 +50,12 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 /* Format the newsletter/subscribe form */
 .subscribe-form {
-  padding: 2rem;
-  outline: dashed 3px;
-  outline-offset: -15px;
+	border: 3px solid var(--separator--border-color);
+	padding: 1rem;
   background: rgba(0, 0, 0, 0.1);
 }
 
-.subscribe-form h3 {
+.subscribe-form h2 {
   margin-bottom: 2rem;
 	margin-top: 0 !important;
   font-weight: bold;
