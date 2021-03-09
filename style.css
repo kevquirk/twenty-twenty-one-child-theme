@@ -57,7 +57,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 @media (prefers-color-scheme: dark) {
 	.notice, .notice-blue,
 	.subscribe-form {
-		background: rgba(0, 0, 0, .02);
+		background: rgba(0, 0, 0, .2);
 	}
 }
 
