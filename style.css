@@ -46,9 +46,18 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 }
 
 .kb-club a {
+	text-decoration: none;
+}
+
+.kb-club-no-bg {
 	border: 2px solid var(--separator--border-color);
 	padding: .5rem 1rem;
-	text-decoration: none;
+}
+
+.kb-club-bg {
+	background: var(--separator--border-color);
+	color: white;
+	padding: .5rem 1rem;
 }
 
 /* Format notice boxes */
