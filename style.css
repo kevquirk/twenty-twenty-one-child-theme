@@ -73,6 +73,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 .kb-club a {
 	text-decoration: none;
 	padding: .5rem 0;
+	transition: .4s;
 }
 
 .kb-club a:hover {
