@@ -221,6 +221,7 @@ input[type="email"], input[type="url"] {
     width: 80%;
     margin: 1rem 0;
 }
+
 /* Format table stripes */
 .wp-block-table.is-style-stripes tr:nth-child(odd) {
   background: rgba(0, 0, 0, 0.075) !important;
@@ -228,4 +229,8 @@ input[type="email"], input[type="url"] {
 
 .wp-block-table table {
     border: 2px solid;
+}
+
+.wp-block-quote {
+	border-left: 3px solid var(--separator--border-color);
 }
