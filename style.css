@@ -182,6 +182,11 @@ input[type="email"], input[type="url"] {
   user-select: all;
 }
 
+.wp-block-search .wp-block-search__input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
 /* Format table stripes */
 .wp-block-table.is-style-stripes tr:nth-child(odd) {
   background: rgba(0, 0, 0, 0.075) !important;
