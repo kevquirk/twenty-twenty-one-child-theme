@@ -10,8 +10,14 @@ License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
 
-.site-info {
+.footer {
 	text-align: center;
+	padding-top: var(--global--spacing-vertical);
+	color: var(--footer--color-text);
+	font-family: var(--footer--font-family);
+	font-size: var(--footer--font-size);
+	line-height: var(--global--line-height-body);
+	border-top: 3px solid var(--global--color-border);
 }
 
 .site-avatar {
