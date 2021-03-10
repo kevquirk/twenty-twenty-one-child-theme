@@ -66,6 +66,10 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
   text-transform: capitalize !important;
 }
 
+.kb-club {
+	margin-top: 1.5rem;
+}
+
 .kb-club a {
 	text-decoration: none;
 }
