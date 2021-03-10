@@ -31,6 +31,10 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 /* Typography elements */
 
+a {
+  text-decoration-thickness: .2rem;
+}
+
 /* Add margin to content headers */
 .entry-content h2,
 .entry-content h3 {
