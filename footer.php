@@ -39,7 +39,7 @@
 				</ul><!-- .footer-navigation-wrapper -->
 			</nav><!-- .footer-navigation -->
 		<?php endif; ?>
-		<div class="footer">
+		<div class="site-info">
 				<p><a href="/disclaimer">Disclaimer</a> | <a href="/license-information">License Info</a> | <a href="/privacy">Privacy</a> | <a href="/buy-me-a-coffee">Coffee</a> | <a href="/rss-feeds">RSS</a></p>
 
 				<p>All work licensed under <b>CC BY-SA 4.0</b> unless otherwise stated.</p>
@@ -47,7 +47,7 @@
 				<div class="kb-club">
 					<p><a taget="blank" href="https://512kb.club"><span class="kb-club-no-bg">512KB Club</span><span class="kb-club-bg">Blue Team</span></a></p>
 				</div>
-		</div><!-- .footer -->
+		</div><!-- .site-info -->
 		<!-- Plausible analytics -->
 		<script async defer data-domain="kevq.uk" src="https://stats.kevq.uk/js/index.js"></script>
 		<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
