@@ -39,19 +39,15 @@
 				</ul><!-- .footer-navigation-wrapper -->
 			</nav><!-- .footer-navigation -->
 		<?php endif; ?>
-		<div class="site-info">
-			<div class="site-name">
+		<div class="footer">
 				<p><a href="/disclaimer">Disclaimer</a> | <a href="/license-information">License Info</a> | <a href="/privacy">Privacy</a> | <a href="/buy-me-a-coffee">Coffee</a> | <a href="/rss-feeds">RSS</a></p>
-			</div><!-- .site-name -->
-			<div class="powered-by">
+
 				<p>All work licensed under <b>CC BY-SA 4.0</b> unless otherwise stated.</p>
-			</div><!-- .powered-by -->
 
-		</div><!-- .site-info -->
-
-		<div class="kb-club">
-			<p><a taget="blank" href="https://512kb.club"><span class="kb-club-no-bg">512KB Club</span><span class="kb-club-bg">Blue Team</span></a></p>
-		</div>
+				<div class="kb-club">
+					<p><a taget="blank" href="https://512kb.club"><span class="kb-club-no-bg">512KB Club</span><span class="kb-club-bg">Blue Team</span></a></p>
+				</div>
+		</div><!-- .footer -->
 		<!-- Plausible analytics -->
 		<script async defer data-domain="kevq.uk" src="https://stats.kevq.uk/js/index.js"></script>
 		<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
