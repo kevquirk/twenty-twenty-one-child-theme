@@ -10,14 +10,8 @@ License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
 
-.footer {
-	text-align: center;
-	padding-top: var(--global--spacing-vertical);
-	color: var(--footer--color-text);
-	font-family: var(--footer--font-family);
-	font-size: var(--footer--font-size);
-	line-height: var(--global--line-height-body);
-	border-top: 3px solid var(--global--color-border);
+.is-dark-theme.is-dark-theme {
+	--global--color-background: #212121;
 }
 
 .site-avatar {
@@ -36,6 +30,13 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 }
 
 /* Typography elements */
+
+/* Add margin to content headers */
+.entry-content h2,
+.entry-content h3 {
+	margin-top: 4rem;
+}
+
 .medium {
 	font-weight: bold;
   font-size: 1.5rem;
@@ -49,7 +50,6 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 .site-branding a {
 	text-decoration: none;
-	padding: var(--primary-nav--padding) var(--primary-nav--padding);
 }
 
 .site-branding a:hover {
@@ -57,14 +57,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
   text-decoration-style: dotted;
 }
 
-.site-branding a:focus {
-	background: rgba(0, 0, 0, 0.9);
-	color: var(--wp--style--color--link, var(--global--color-white));
-}
-
-.site-title {
-  text-transform: capitalize !important;
-}
+/* Format 512kb blub banner in footer */
 
 .kb-club {
 	margin-top: 1.5rem;
@@ -93,20 +86,15 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 }
 
 /* Format notice boxes */
-.notice, .notice-blue {
+
+.notice, .notice-blue, .notice-red {
 	background: rgba(0, 0, 0, .075);
 	border: 3px solid var(--separator--border-color);
 	padding: 1rem;
 }
 
-.notice-red {
-	background: crimson;
-	color: white;
-	border: 3px solid var(--separator--border-color);
-	padding: 1rem;
-}
-
 /* Format the newsletter/subscribe form */
+
 .subscribe-form {
 	border: 3px solid var(--separator--border-color);
 	padding: 1rem;
@@ -165,19 +153,25 @@ input[type="email"], input[type="url"] {
 	margin: inherit;
 }
 
-/* Add margin to content headers */
-.entry-content h2,
-.entry-content h3 {
-	margin-top: 4rem;
-}
-
 /* Footer tweaks */
+
 .site-name a {
 	text-transform: capitalize;
 	font-size: 18px;
 }
 
+.footer {
+	text-align: center;
+	padding-top: var(--global--spacing-vertical);
+	color: var(--footer--color-text);
+	font-family: var(--footer--font-family);
+	font-size: var(--footer--font-size);
+	line-height: var(--global--line-height-body);
+	border-top: 3px solid var(--global--color-border);
+}
+
 /* Format guestbook entries */
+
 .gwolle-gb .gb-entry {
 	border: 3px solid var(--separator--border-color) !important;
 	margin-bottom: 1rem !important;
@@ -214,12 +208,9 @@ input[type="email"], input[type="url"] {
 }
 
 /* Misc stuff */
+
 .select-all {
   user-select: all;
-}
-#search {
-    width: 80%;
-    margin: 1rem 0;
 }
 
 /* Format table stripes */
