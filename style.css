@@ -279,3 +279,19 @@ input[type="email"], input[type="url"] {
 .wp-block-quote {
 	border-left: 3px solid var(--separator--border-color);
 }
+
+/* Blogroll items */
+.blogroll-banner h2,
+.blogroll-banner-fav h2 {
+  margin-top: 0;
+}
+
+.blogroll-banner {
+  border: 3px solid var(--separator--border-color);
+  padding: 1rem;
+}
+
+.blogroll-banner-fav {
+	border: 3px solid gold;
+	padding: 1rem;
+}
