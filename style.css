@@ -208,7 +208,8 @@ input[type="email"], input[type="url"] {
 	background: rgba(0, 0, 0, 0.03) !important;
 }
 
-.is-dark-theme.is-dark-theme .gwolle-gb .gb-entry{
+.is-dark-theme.is-dark-theme .gwolle-gb .gb-entry,
+.is-dark-theme.is-dark-theme .gwolle-gb-write {
   background: rgba(0, 0, 0, .3) !important;
 }
 
