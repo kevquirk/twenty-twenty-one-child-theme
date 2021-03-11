@@ -118,6 +118,10 @@ code {
   background: rgba(0, 0, 0, .075);
 }
 
+.is-dark-theme.is-dark-theme .subscribe-form {
+	background: rgba(0, 0, 0, .5);
+}
+
 .subscribe-form h2 {
 	font-size: 2.3rem;
   margin-bottom: 2rem;
@@ -152,6 +156,11 @@ input[type="email"], input[type="url"] {
 	border: 3px solid var(--separator--border-color);
 	padding: 1rem;
 	font-weight: bold;
+}
+
+.is-dark-theme.is-dark-theme .banner,
+.is-dark-theme.is-dark-theme .hundred-days {
+	background: rgba(0, 0, 0, .5);
 }
 
 .hundred-days-number {
