@@ -292,6 +292,6 @@ input[type="email"], input[type="url"] {
 }
 
 .blogroll-banner-fav {
-	border: 3px solid gold;
+	border: 3px solid orange;
 	padding: 1rem;
 }
