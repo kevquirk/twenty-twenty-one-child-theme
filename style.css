@@ -244,7 +244,7 @@ input[type="email"], input[type="url"] {
 
 .is-dark-theme.is-dark-theme .gwolle-gb .page-navigation a:hover,
 .is-dark-theme.is-dark-theme .gwolle-gb .page-navigation span.current {
-	background: rgba(0, 0, 0, 0.75) !important;
+	background: rgba(0, 0, 0, 1) !important;
 }
 
 .gwolle-gb h3 {
