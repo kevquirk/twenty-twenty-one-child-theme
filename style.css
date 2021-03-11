@@ -41,7 +41,7 @@ code {
 }
 
 .is-dark-theme.is-dark-theme code {
-	background: rgba(0, 0, 0, .2);
+	background: rgba(0, 0, 0, .5);
 }
 
 /* Add margin to content headers */
@@ -84,6 +84,10 @@ code {
 
 .kb-club a:hover {
   background: rgba(0, 0, 0, .075);
+}
+
+.is-dark-theme.is-dark-theme .kb-club a:hover {
+  background: rgba(0, 0, 0, .5);
 }
 
 .kb-club-no-bg {
