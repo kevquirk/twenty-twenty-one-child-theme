@@ -237,6 +237,13 @@ input[type="email"], input[type="url"] {
   background: rgba(0, 0, 0, .3) !important;
 }
 
+.is-dark-theme.is-dark-theme .gwolle-gb .page-navigation a:hover,
+.is-dark-theme.is-dark-theme .gwolle-gb .page-navigation span.current,
+.is-dark-theme.is-dark-theme .gwolle-gb .gb-entry-admin_reply,
+.is-dark-theme.is-dark-theme .gwolle-gb .gb-entry-admin-reply {
+	background: rgba(0, 0, 0, 0.5) !important;
+}
+
 .gwolle-gb h3 {
 	display: none;
 }
