@@ -21,3 +21,15 @@
 	color: var(--global--color-background);
   border: none;
 }
+
+/* Code blocks */
+
+.editor-styles-wrapper code {
+	background: rgba(0, 0, 0, .075);
+	padding: .2rem
+}
+
+.editor-styles-wrapper pre code {
+	background: none !important;
+	font-size: 1rem;
+}
