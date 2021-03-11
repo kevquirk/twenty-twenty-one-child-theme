@@ -35,6 +35,14 @@ a {
   text-decoration-thickness: .15rem !important;
 }
 
+code {
+	background: rgba(0, 0, 0, .075);
+}
+
+.is-dark-theme.is-dark-theme code {
+	background: rgba(0, 0, 0, .2);
+}
+
 /* Add margin to content headers */
 .entry-content h2,
 .entry-content h3 {
