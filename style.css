@@ -41,7 +41,7 @@ code {
 }
 
 .is-dark-theme.is-dark-theme code {
-	background: rgba(0, 0, 0, .5);
+	background: rgba(0, 0, 0, .3);
 }
 
 pre code {
@@ -92,7 +92,7 @@ pre code {
 }
 
 .is-dark-theme.is-dark-theme .kb-club a:hover {
-  background: rgba(0, 0, 0, .5);
+  background: rgba(0, 0, 0, .3);
 }
 
 .kb-club-no-bg {
@@ -124,7 +124,7 @@ pre code {
 }
 
 .is-dark-theme.is-dark-theme .subscribe-form {
-	background: rgba(0, 0, 0, .5);
+	background: rgba(0, 0, 0, .3);
 }
 
 .subscribe-form h2 {
@@ -165,7 +165,7 @@ input[type="email"], input[type="url"] {
 
 .is-dark-theme.is-dark-theme .banner,
 .is-dark-theme.is-dark-theme .hundred-days {
-	background: rgba(0, 0, 0, .5);
+	background: rgba(0, 0, 0, .3);
 }
 
 .hundred-days-number {
