@@ -175,6 +175,7 @@ input[type="email"], input[type="url"] {
 	max-width: 610px;
 	margin: 0 auto;
 	display: block;
+	padding: 0 1rem;
 }
 
 .comment-notice p {
