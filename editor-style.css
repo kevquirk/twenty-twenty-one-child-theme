@@ -3,12 +3,6 @@
   font-size: 3.2rem
 }
 
-
-.editor-styles-wrapper .wp-block-heading h2, .editor-styles-wrapper h2, .editor-styles-wrapper .h2,
-.editor-styles-wrapper .wp-block-heading h3, .editor-styles-wrapper h3, .editor-styles-wrapper .h3 {
-    margin-top: 4rem !important;
-}
-
 .medium {
 	font-weight: bold;
   font-size: 1.5rem;
