@@ -113,6 +113,10 @@ pre code {
 	color: var(--global--color-background);
 }
 
+.notice a, .notice-blue a, .notice-red a {
+	color: var(--global--color-background) !important;
+}
+
 /* Format the newsletter/subscribe form */
 
 .subscribe-form {

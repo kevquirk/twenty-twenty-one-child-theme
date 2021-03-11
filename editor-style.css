@@ -22,6 +22,10 @@
   border: none;
 }
 
+.notice a, .notice-blue a, .notice-red a {
+	color: var(--global--color-background) !important;
+}
+
 /* Code blocks */
 
 code {
