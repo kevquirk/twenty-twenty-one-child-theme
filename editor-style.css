@@ -1,0 +1,27 @@
+/* Fix header size */
+#post-title-0 {
+  font-size: 3.2rem
+}
+
+.editor-styles-wrapper h2,
+.editor-styles-wrapper h3 {
+  margin-top: 4rem !important;
+}
+
+.medium {
+	font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+/* Thicker unerlines on links */
+.editor-styles-wrapper .wp-block a {
+  text-decoration-thickness: .1rem;
+}
+
+/* Format notice boxes */
+.notice, .notice-blue, .notice-red {
+	background: var(--separator--border-color);
+	padding: 1rem;
+	color: var(--global--color-background);
+}
