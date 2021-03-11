@@ -25,7 +25,7 @@
 /* Code blocks */
 
 code {
-	background: rgba(0, 0, 0, .075) !important;
+	background: rgba(0, 0, 0, .075);
 	padding: .2rem;
 }
 
