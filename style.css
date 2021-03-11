@@ -207,6 +207,11 @@ input[type="email"], input[type="url"] {
 	margin-bottom: 1rem !important;
 	background: rgba(0, 0, 0, 0.03) !important;
 }
+
+.is-dark-theme.is-dark-theme .gwolle-gb .gb-entry{
+  background: rgba(0, 0, 0, .3) !important;
+}
+
 .gwolle-gb-write {
 	background: rgba(0, 0, 0, 0.03) !important;
 	border: 3px solid var(--separator--border-color) !important;
