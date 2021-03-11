@@ -208,12 +208,6 @@ input[type="email"], input[type="url"] {
 	background: rgba(0, 0, 0, 0.03) !important;
 }
 
-.is-dark-theme.is-dark-theme .gwolle-gb .gb-entry,
-.is-dark-theme.is-dark-theme .gwolle-gb-write,
-.is-dark-theme.is-dark-theme .gwolle-gb .page-navigation a, .gwolle-gb .page-navigation span {
-  background: rgba(0, 0, 0, .3) !important;
-}
-
 .gwolle-gb-write {
 	background: rgba(0, 0, 0, 0.03) !important;
 	border: 3px solid var(--separator--border-color) !important;
@@ -233,6 +227,13 @@ input[type="email"], input[type="url"] {
 	border-left: 3px solid var(--separator--border-color) !important;
 	background: rgba(0, 0, 0, 0.075) !important;
 	margin-right: .5rem !important;
+}
+
+/* More contrasted bg in dark mode */
+.is-dark-theme.is-dark-theme .gwolle-gb .gb-entry,
+.is-dark-theme.is-dark-theme .gwolle-gb-write,
+.is-dark-theme.is-dark-theme .gwolle-gb .page-navigation a, .gwolle-gb .page-navigation span {
+  background: rgba(0, 0, 0, .3) !important;
 }
 
 .gwolle-gb h3 {
