@@ -24,12 +24,12 @@
 
 /* Code blocks */
 
-.editor-styles-wrapper code {
+code {
 	background: rgba(0, 0, 0, .075) !important;
 	padding: .2rem;
 }
 
-.editor-styles-wrapper pre code {
+pre code {
 	background: none !important;
 	font-size: 1rem;
   padding: 0;
