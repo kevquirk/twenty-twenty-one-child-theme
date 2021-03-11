@@ -46,6 +46,7 @@ code {
 
 pre code {
 	background: none !important;
+	font-size: 1rem;
 }
 
 /* Add margin to content headers */
