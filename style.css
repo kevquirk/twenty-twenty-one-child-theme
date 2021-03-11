@@ -32,7 +32,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 /* Typography elements */
 
 a {
-  text-decoration-thickness: .15rem;
+  text-decoration-thickness: .15rem !important;
 }
 
 /* Add margin to content headers */
@@ -92,9 +92,9 @@ a {
 /* Format notice boxes */
 
 .notice, .notice-blue, .notice-red {
-	background: rgba(0, 0, 0, .075);
-	border: 3px solid var(--separator--border-color);
+	background: var(--separator--border-color);
 	padding: 1rem;
+	color: var(--global--color-background);
 }
 
 /* Format the newsletter/subscribe form */
