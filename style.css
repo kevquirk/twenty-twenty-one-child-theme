@@ -232,7 +232,8 @@ input[type="email"], input[type="url"] {
 /* More contrasted bg in dark mode */
 .is-dark-theme.is-dark-theme .gwolle-gb .gb-entry,
 .is-dark-theme.is-dark-theme .gwolle-gb-write,
-.is-dark-theme.is-dark-theme .gwolle-gb .page-navigation a, .gwolle-gb .page-navigation span {
+.is-dark-theme.is-dark-theme .gwolle-gb .page-navigation a,
+.is-dark-theme.is-dark-theme .gwolle-gb .page-navigation span {
   background: rgba(0, 0, 0, .3) !important;
 }
 
