@@ -19,4 +19,5 @@
 	background: var(--separator--border-color);
 	padding: 1rem;
 	color: var(--global--color-background);
+  border: none;
 }
