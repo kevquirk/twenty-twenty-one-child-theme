@@ -35,7 +35,7 @@ a {
 
 code {
 	background: rgba(0, 0, 0, .075);
-	padding: .2rem;
+	padding: .1rem .2rem;
 }
 
 .is-dark-theme.is-dark-theme code {
